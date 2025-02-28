@@ -388,6 +388,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3127728407712097234, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+      propertyPath: m_MaxHeight
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3127728407712097234, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_MinHeight
       value: 1.65
       objectReference: {fileID: 0}
@@ -443,6 +447,14 @@ PrefabInstance:
       propertyPath: m_RequestedTrackingOriginMode
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 9014170783705847993, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 5686134208185136530, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+    - target: {fileID: 9014170785475729497, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 109434732395451517, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
 --- !u!114 &452463680 stripped
@@ -1218,12 +1230,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7764487651825262745, guid: 76b2545d9c4f51b409b8a7e24fc224c2, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 76b2545d9c4f51b409b8a7e24fc224c2, type: 3}
       propertyPath: m_Name
       value: Character
       objectReference: {fileID: 0}
     - target: {fileID: 1051571768989249988, guid: 76b2545d9c4f51b409b8a7e24fc224c2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1051571768989249988, guid: 76b2545d9c4f51b409b8a7e24fc224c2, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3099756089343826349, guid: 76b2545d9c4f51b409b8a7e24fc224c2, type: 3}
+      propertyPath: m_RenderingLayerMask
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1766,15 +1790,15 @@ MonoBehaviour:
   leftHand:
     vrTarget: {fileID: 794250862}
     ikTarget: {fileID: 457075220}
-    positionOffset: {x: -0.04, y: -0.05, z: -0.15}
+    positionOffset: {x: -0.04, y: -0.025, z: -0.1}
     rotationOffset: {x: 0, y: 90, z: 90}
   rightHand:
     vrTarget: {fileID: 430397589}
     ikTarget: {fileID: 1764720135}
-    positionOffset: {x: 0.04, y: -0.05, z: -0.15}
+    positionOffset: {x: 0.05, y: -0.025, z: -0.1}
     rotationOffset: {x: 0, y: -90, z: -90}
   turnSmoothness: 0.1
-  headPositionOffset: {x: 0, y: -0.36, z: 0}
+  headPositionOffset: {x: 0, y: -0.62, z: 0}
   bodyOffset: 0
 --- !u!4 &2136726642 stripped
 Transform:
