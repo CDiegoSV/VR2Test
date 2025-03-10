@@ -13,7 +13,7 @@ public class EnemyBehaviour : MonoBehaviour
     }
 
     private void Update() {
-        m_agent.Move(m_playerTransform.position);
+        m_agent.SetDestination(m_playerTransform.position);
     }
 
     private void OnCollisionEnter(Collision collision) {
